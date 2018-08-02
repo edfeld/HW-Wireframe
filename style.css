@@ -1,28 +1,72 @@
 /* Style Sheet */
+/* Mod Dates
+08/01/2018 ERE - 
 
+*/
+
+body {
+  background-color: rgb(80, 80, 80);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 960px;
+  margin: 10px auto;
+}
 code {
-    background: #2db34a;
-    border-radius: 6px;
-    color: #fff;
+    background: #d3d3d3;
+    color: #808080;
     display: block;
-    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal,
-      "Courier New", Courier;
     padding: 24px 15px;
     text-align: center;
   }
   header,
   section,
+  nav,
   aside,
   footer {
-    margin: 0 1.5% 24px 1.5%;
+    margin: 0 auto 10px auto;
+    width: 100%;
+    color: #a9a9a9;
+    background-color: #e9e9e9;
+    padding: 24px 0px;
+    text-align: center;
   }
   section {
     float: left;
-    width: 63%;
+    width: 60%; /* 63% */
+    
+  }
+  .sectionHead {
+    margin-bottom: 25px;
+    display: block;
   }
   aside {
     float: right;
-    width: 30%;
+    width: 38%;
+    padding: 156px 0px;
+  }
+  article {
+    
+    width: 540px;
+    background-color: #a9a9a9;
+    color: #e9e9e9;
+    padding: 24px 0px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: inline-block;
+  }
+  h1, 
+  h2,
+  h3,
+  p {
+    color: #a9a9a9;
+    background-color: #e9e9e9;
+    text-align: center;
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 20px;
   }
   footer {
     clear: both;
