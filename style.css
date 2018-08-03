@@ -28,7 +28,8 @@ footer {
 }
 section {
   float: left;
-  width: 495px; /* 63% */
+  width: 495px; 
+  display: block;  /* Is this needed or is section already block? */
   
 }
 .sectionHead {
